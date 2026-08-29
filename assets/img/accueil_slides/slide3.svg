@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <!-- Gradient background - Soft maternal theme -->
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F3E1E5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#DCE8E6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E3EAE1;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="softCircle3" cx="40%" cy="60%">
+      <stop offset="0%" style="stop-color:#E8F4F1;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#DCE8E6;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base gradient -->
+  <rect width="1920" height="1080" fill="url(#grad3)"/>
+  
+  <!-- Soft decorative circles -->
+  <circle cx="1700" cy="300" r="500" fill="url(#softCircle3)"/>
+  <circle cx="400" cy="950" r="420" fill="url(#softCircle3)"/>
+  
+  <!-- Family/wellbeing symbolism - Abstract but relatable -->
+  <g opacity="0.14">
+    <!-- Parent and child silhouettes (abstract) -->
+    <circle cx="800" cy="400" r="70" fill="#2E5D57"/>
+    <circle cx="900" cy="520" r="50" fill="#5F7D5B"/>
+    <path d="M 800 480 L 900 570" stroke="#B5697A" stroke-width="30" stroke-linecap="round"/>
+    
+    <!-- Healing/wellness symbol -->
+    <circle cx="1100" cy="600" r="100" stroke="#B5697A" stroke-width="25" fill="none"/>
+    <path d="M 1100 500 L 1100 700 M 1000 600 L 1200 600" stroke="#B5697A" stroke-width="25" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Inspirational text -->
+  <g opacity="0.85">
+    <text x="960" y="280" font-family="Fraunces, serif" font-size="60" font-weight="700" fill="#B5697A" text-anchor="middle">
+      Accompagnement Bienveillant
+    </text>
+    <text x="960" y="370" font-family="Inter, sans-serif" font-size="24" fill="#71695C" text-anchor="middle">
+      Chaque moment de maternité compte
+    </text>
+  </g>
+  
+  <!-- Flowing decorative elements -->
+  <g opacity="0.1">
+    <path d="M 0 450 Q 300 400 600 450 T 1200 450 T 1800 450 T 2400 450" 
+          stroke="#2E5D57" stroke-width="40" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

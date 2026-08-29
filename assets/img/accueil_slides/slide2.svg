@@ -1,0 +1,47 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <!-- Gradient background - Healthcare/wellness theme -->
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3EAE1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#DCE8E6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F3E1E5;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="softCircle2" cx="80%" cy="70%">
+      <stop offset="0%" style="stop-color:#F3E1E5;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#DCE8E6;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base gradient -->
+  <rect width="1920" height="1080" fill="url(#grad2)"/>
+  
+  <!-- Soft decorative circles -->
+  <circle cx="300" cy="200" r="450" fill="url(#softCircle2)"/>
+  <circle cx="1600" cy="850" r="380" fill="url(#softCircle2)"/>
+  
+  <!-- Wellness/care iconography - Abstract medical/care elements -->
+  <g opacity="0.12">
+    <!-- Stethoscope-like wellness symbol -->
+    <path d="M 960 300 Q 900 350 900 450 Q 900 550 960 600 Q 1020 550 1020 450 Q 1020 350 960 300" 
+          stroke="#2E5D57" stroke-width="30" fill="none" stroke-linecap="round"/>
+    
+    <!-- Care circle -->
+    <circle cx="960" cy="750" r="80" stroke="#5F7D5B" stroke-width="20" fill="none"/>
+    <line x1="960" y1="670" x2="960" y2="830" stroke="#5F7D5B" stroke-width="20" stroke-linecap="round"/>
+    <line x1="880" y1="750" x2="1040" y2="750" stroke="#5F7D5B" stroke-width="20" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Subtitle -->
+  <g opacity="0.8">
+    <text x="960" y="350" font-family="Fraunces, serif" font-size="56" font-weight="600" fill="#5F7D5B" text-anchor="middle">
+      Soins de Maternité
+    </text>
+    <text x="960" y="430" font-family="Inter, sans-serif" font-size="22" fill="#71695C" text-anchor="middle">
+      Suivi prénatale et postnatale de qualité
+    </text>
+  </g>
+  
+  <!-- Organic accent shapes -->
+  <path d="M 0 600 Q 200 550 400 600 T 800 600" stroke="#B5697A" stroke-width="60" fill="none" opacity="0.1" stroke-linecap="round"/>
+  <path d="M 1200 300 Q 1400 350 1600 300 T 2000 300" stroke="#2E5D57" stroke-width="50" fill="none" opacity="0.1" stroke-linecap="round"/>
+</svg>

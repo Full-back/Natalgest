@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d17"/>
+      <stop offset="50%" stop-color="#111a24"/>
+      <stop offset="100%" stop-color="#0d1320"/>
+    </linearGradient>
+    <radialGradient id="glowGreen" cx="70%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#2E5D57" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#2E5D57" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRose" cx="78%" cy="28%" r="38%">
+      <stop offset="0%" stop-color="#B5697A" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#B5697A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <circle cx="1500" cy="300" r="620" fill="url(#glowRose)"/>
+  <circle cx="500" cy="760" r="540" fill="url(#glowGreen)"/>
+
+  <g opacity="0.78">
+    <!-- bureau / consultation -->
+    <rect x="1050" y="700" width="620" height="130" rx="26" fill="#1a2335" opacity="0.8"/>
+    <rect x="1095" y="725" width="270" height="12" rx="6" fill="#101922" opacity="0.9"/>
+    <rect x="1095" y="755" width="210" height="12" rx="6" fill="#101922" opacity="0.8"/>
+
+    <!-- chaise / patient -->
+    <ellipse cx="1235" cy="890" rx="120" ry="30" fill="#0b1118" opacity="0.7"/>
+
+    <!-- patiente -->
+    <g>
+      <circle cx="1225" cy="390" r="50" fill="#2d2d2d"/>
+      <path d="M1175 395 Q1170 470 1188 540 Q1208 600 1218 640 L1240 640 Q1252 600 1272 540 Q1288 470 1280 395" fill="#2d2d2d"/>
+      <ellipse cx="1228" cy="560" rx="115" ry="155" fill="#2d2d2d"/>
+      <path d="M1145 590 Q1195 640 1230 640 Q1270 640 1315 590" fill="none" stroke="#2d2d2d" stroke-width="26" stroke-linecap="round"/>
+      <path d="M1190 720 L1165 930" stroke="#2d2d2d" stroke-width="28" stroke-linecap="round"/>
+      <path d="M1265 720 L1295 930" stroke="#2d2d2d" stroke-width="28" stroke-linecap="round"/>
+    </g>
+
+    <!-- sage-femme/clinicienne -->
+    <g>
+      <circle cx="1465" cy="330" r="52" fill="#3b3b3b"/>
+      <path d="M1410 360 Q1415 430 1435 500 Q1455 560 1465 620 L1490 620 Q1510 560 1525 500 Q1545 430 1548 360" fill="#f3f5f7" opacity="0.16"/>
+      <ellipse cx="1465" cy="510" rx="118" ry="126" fill="#f3f5f7" opacity="0.12"/>
+      <path d="M1415 560 L1365 900" stroke="#f3f5f7" stroke-width="26" stroke-linecap="round" opacity="0.24"/>
+      <path d="M1515 560 L1565 900" stroke="#f3f5f7" stroke-width="26" stroke-linecap="round" opacity="0.24"/>
+      <path d="M1460 520 L1385 620" stroke="#2E5D57" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+      <path d="M1468 520 L1540 620" stroke="#2E5D57" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+      <path d="M1375 610 Q1465 645 1555 610" fill="none" stroke="#2E5D57" stroke-width="8" stroke-linecap="round" opacity="0.86"/>
+      <rect x="1580" y="500" width="128" height="170" rx="18" fill="#f3f5f7" opacity="0.12"/>
+      <path d="M1614 525 H1670" stroke="#2E5D57" stroke-width="8" stroke-linecap="round" opacity="0.82"/>
+      <path d="M1614 560 H1668" stroke="#2E5D57" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+      <path d="M1614 595 H1655" stroke="#2E5D57" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+    </g>
+
+    <!-- petit symbole médical discret -->
+    <g opacity="0.35">
+      <circle cx="1720" cy="440" r="28" fill="none" stroke="#B5697A" stroke-width="4"/>
+      <path d="M1720 415 V465 M1695 440 H1745" stroke="#B5697A" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
+

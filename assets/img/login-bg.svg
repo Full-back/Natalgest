@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Femme enceinte noire illustration">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2c0f44"/>
+      <stop offset="100%" stop-color="#5f3f91"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#ffd7c1" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#2c0f44" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bgGradient)" />
+  <circle cx="1060" cy="280" r="260" fill="url(#halo)" />
+  <g transform="translate(560, 220)">
+    <path d="M616 656C628 554 660 420 548 308C430 190 354 222 328 284C300 356 300 436 300 520C300 590 280 662 296 686C314 712 344 708 380 724C424 744 456 740 492 738C534 736 578 742 616 756C652 768 696 760 732 728C764 700 788 672 804 628C820 580 814 704 840 740C862 772 906 760 926 724C950 680 948 610 924 556C892 482 826 412 752 408C694 406 652 452 616 516" fill="#2d1b14"/>
+    <ellipse cx="660" cy="214" rx="84" ry="96" fill="#2d1b14" />
+    <path d="M330 562C322 488 328 432 356 388C392 330 454 336 502 332C530 330 556 328 576 344C618 378 688 450 744 534C768 578 780 634 784 690C786 706 784 724 776 742C760 778 716 818 652 826C594 832 556 806 532 780C506 752 488 714 462 676C438 642 410 620 382 606C356 594 338 578 330 562Z" fill="#1f0f0d" opacity="0.84"/>
+    <ellipse cx="556" cy="594" rx="120" ry="136" fill="#461f12" opacity="0.95" />
+    <path d="M406 720C418 740 452 768 510 772C590 778 658 734 708 684C738 650 756 592 752 542C748 490 736 446 720 408" stroke="#f5c19c" stroke-width="24" fill="none" opacity="0.4"/>
+    <path d="M424 388C432 376 456 368 482 370C506 372 532 384 548 404" stroke="#f5c19c" stroke-width="18" fill="none" opacity="0.35"/>
+  </g>
+  <g transform="translate(150, 720)">
+    <ellipse cx="300" cy="80" rx="180" ry="80" fill="#3d1b30" opacity="0.2" />
+    <ellipse cx="350" cy="60" rx="240" ry="90" fill="#5f3f91" opacity="0.12" />
+  </g>
+</svg>
